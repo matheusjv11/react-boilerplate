@@ -18,7 +18,7 @@
     }
   },
   "lint-staged": {
-    "src/**/*": [
+    "src/**/*.{js,jsx,ts,tsx,md,html}": [
       "npm run lint -- --fix ",
       "npm test -- --findRelatedTests --bail"
     ]
